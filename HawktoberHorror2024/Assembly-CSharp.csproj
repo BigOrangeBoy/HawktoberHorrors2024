@@ -60,7 +60,8 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.47f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\script.cs" />
+    <Compile Include="Assets\Scripts\player-stuff\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\player-stuff\Lean.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -899,16 +900,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
@@ -985,6 +986,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="FMODUnityEditor.csproj">
+      <Project>{A26ED6B2-89FF-86CB-9A23-CA9267952714}</Project>
+      <Name>FMODUnityEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnity.csproj">
+      <Project>{653B7965-A2BD-AD2D-2400-ABB19D7E2A63}</Project>
+      <Name>FMODUnity</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonanceEditor.csproj">
+      <Project>{F3D9F069-C874-5F7F-77B4-F685E4679A5B}</Project>
+      <Name>FMODUnityResonanceEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonance.csproj">
+      <Project>{B9E1A7A4-0EF6-7A6A-D69B-323E277C2228}</Project>
+      <Name>FMODUnityResonance</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
