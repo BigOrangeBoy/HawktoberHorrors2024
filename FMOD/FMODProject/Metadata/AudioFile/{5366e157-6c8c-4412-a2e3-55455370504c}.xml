@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5366e157-6c8c-4412-a2e3-55455370504c}">
+		<property name="assetPath">
+			<value>GUNAuto_Assault Rifle FN FAL-Shot 01 Composite_AKB00M_Modern Firearms_yesKick.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.375</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4045d755-2a9a-470d-8627-429625f4eecd}</destination>
+		</relationship>
+	</object>
+</objects>
