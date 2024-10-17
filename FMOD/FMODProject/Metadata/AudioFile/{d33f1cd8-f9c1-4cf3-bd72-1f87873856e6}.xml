@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d33f1cd8-f9c1-4cf3-bd72-1f87873856e6}">
+		<property name="assetPath">
+			<value>Ambiences/AMBInd_Sewing-Machine 02_PixaBay_Hawktober.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.3256235827664398</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4045d755-2a9a-470d-8627-429625f4eecd}</destination>
+		</relationship>
+	</object>
+</objects>

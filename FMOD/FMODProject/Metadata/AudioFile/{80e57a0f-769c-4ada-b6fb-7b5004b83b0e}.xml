@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{80e57a0f-769c-4ada-b6fb-7b5004b83b0e}">
+		<property name="assetPath">
+			<value>Ambiences/AMBInd_Industrial-Presses 07_AKB00M_Ambience Urban.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.6000000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4045d755-2a9a-470d-8627-429625f4eecd}</destination>
+		</relationship>
+	</object>
+</objects>

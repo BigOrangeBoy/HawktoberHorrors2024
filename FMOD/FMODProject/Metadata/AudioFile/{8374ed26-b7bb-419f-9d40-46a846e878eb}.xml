@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{8374ed26-b7bb-419f-9d40-46a846e878eb}">
+		<property name="assetPath">
+			<value>Ambiences/AMBInd_Electric-Door 01_PixaBay_Hawktober.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.1779365079365078</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4045d755-2a9a-470d-8627-429625f4eecd}</destination>
+		</relationship>
+	</object>
+</objects>
